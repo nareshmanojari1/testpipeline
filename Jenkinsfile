@@ -29,7 +29,7 @@ pipeline {
     }
   post {
     success {
-      mail to: vadudodla@altimetrik.com, subject: ‘The Pipeline success :(‘
+      mail to: naresh.manojari@gmail.com, subject: ‘The Pipeline success :(‘
     }
   }
 }
