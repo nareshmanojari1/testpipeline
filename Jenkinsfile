@@ -25,7 +25,7 @@ pipeline {
   }
   post {
     always {
-      echo ‘I will always execute this!’
+      echo ‘I will always execute’
     }
   post {
     success { mail to: naresh.manojari@gmail.com, subject: 'The Pipeline success'}
