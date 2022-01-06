@@ -28,6 +28,8 @@ pipeline {
       echo ‘I will always execute’
     }
   post {
-    success { mail to: naresh.manojari@gmail.com, subject: 'The Pipeline success'}
+    success {
+      mail to: naresh.manojari@gmail.com, subject: 'The Pipeline success'
+    }
   }
 }
